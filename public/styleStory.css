@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#unknownWords {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 30px;
+}
+
+#unknownWords p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#unknownWords ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#unknownWords li {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+#story {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 30px;
+}
+
+#story p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#story p:last-child {
+    font-size: 18px;
+}
+img{
+
+    width: 30%;
+    height: 30%;
+}

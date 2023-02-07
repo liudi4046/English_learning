@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="styleStory.css">
+</head>
+
+<body>
+    <div id="unknownWords">
+        <p>这是您刚刚选择的10个不会的单词：</p>
+        <ul>
+            <% for(var i=0; i<unknownWords.length; i++) { %>
+                <li><%= unknownWords[i] %></li>
+            <% } %>
+        </ul>
+    </div>
+
+    <div id="story">
+        <p>由这些单词生成的故事如下：</p>
+        <p><%= completion %></p>
+        <img src='<%= image_url %>' alt="Generated Image">
+    </div>
+</body>
+
+</html>
